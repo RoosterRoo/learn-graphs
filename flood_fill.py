@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     def getDFS(self, image, res, init_color, color, sr, sc, m, n):
         rows = [0, 0, -1, 1]
-        columns = [-1, 1, 0, 0]\
+        columns = [-1, 1, 0, 0]
 
         res[sr][sc] = color
 
